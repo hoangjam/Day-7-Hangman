@@ -25,7 +25,7 @@ while not end_of_game:
 
     if guess in display:
         print(f"You've already guessed the right letter {guess}")
-    
+
     if guess in guessed_letters:
         print(f"NOTE: {guess} has already been guessed")
         print(f"Guessed letters: {guessed_letters}")
